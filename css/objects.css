@@ -1,0 +1,47 @@
+.fa-bars {
+    font-size: 1.4em;
+}
+.social {
+    float: right;
+    margin-right: 3px;
+    padding-top: 4px;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: #4c66a4;
+}
+
+.fa-twitter {
+    color: white;
+    padding-right: 10px;
+}  
+
+.fa-twitter:hover {
+    color: #4099FF;
+}
+
+.caret {
+    text-align: center;
+    bottom: 0; 
+}
+.fa-caret-up {
+    display: inline-block;
+    font-size: 3.6em;
+    margin-top: 250px;
+}
+
+.banndown{
+    display: inline-block;
+    width: 100px;
+    background: coral;
+    height: 60px;
+    margin: 0;
+}
+/*.postdate {
+
+}*/
+

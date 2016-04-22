@@ -1,0 +1,56 @@
+            .sliderlg{
+				height: 630px;
+            }
+            .slidersm{
+                height: 443px;
+            }
+            #slider{
+                width: 100%;
+                margin: auto;
+                background-color: black;
+				overflow: hidden; /* this lets us see outside the #slider container, to understand what is happeneing. At the end, change this to hidden */
+				position: relative;
+            }
+			
+			.slide{
+				height: inherit; /* same as #slider */
+				width: 100%; /* same as #slider */
+				position: absolute;
+				left: 100%; /*by default, slides will be hiding outside the container */
+                transition: all 0.4s;
+			}
+            .moveleft {
+                height: inherit; /* same as #slider */
+				width: 100%; /* same as #slider */
+				position: absolute;
+				left: -100%; /*by default, slides will be hiding outside the container */
+                transition: all 0.4s;
+            }
+			
+			.current{ /* the current slide is front and center */
+				left: 0;
+			}
+			
+			.red{
+          		background: url(../img/slider1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.4;
+			}
+			
+			.blue{
+				background: url(../img/slider2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.4;
+			}
+			
+			.yellow{
+				background: url(../img/slider3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.4;
+			}
